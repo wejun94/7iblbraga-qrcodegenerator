@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.qr-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem ;
+    
+}
+.qr-code-papel{
+    display: absolute;
+    width: 35rem;
+    height: 55vw;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.qr-code-img{
+    display: absolute;
+    width: 100%;
+    height: 20vw;
+    background: url(/img-7.jpg) no-repeat center center;
+    background-size: cover;
+}
+.qr-code-logo{
+    max-width: 100%;
+    height: 10vw;
+}
+.qr-code-logo img{
+    max-width: 200px;
+    margin-top: 2rem;
+}
+.qr-code-text p{
+    font-size: 18px;
+    font-weight: 400px;
+    text-indent: 35px;
+    text-align: center;
+    margin: 20px;
+}
+@media (max-width: 1273px){
+    .qr-code-papel{
+        height: 60vw;
+    }
+    .qr-code-img{
+        height: 20vw;
+    }
+    .qr-code-logo{
+        height: 10vw;
+    }
+    .qr-code-text p{
+        font-size: 18px;
+        margin: 40px;
+    }
+
+}
+@media (max-width: 856px){
+    .qr-code-papel{
+        height: 90vw;
+    }
+    .qr-code-img{
+        height: 30vw;
+    }
+    .qr-code-logo{
+        height: 15vw;
+    }
+    .qr-code-text p{
+        font-size: 18px;
+        margin: 40px;
+    }
+
+} 
+@media (max-width: 574px){
+    .qr-code-papel{
+        height: 95vw;
+    }
+    .qr-code-img{
+        height: 30vw;
+    }
+    .qr-code-logo{
+        height: 20vw;
+    }
+    .qr-code-text p{
+        font-size: 15px;
+        margin: 30px;
+    }
+
+} 
+
+@media (max-width: 430px){
+    .qr-code-papel{
+        height: 125vw;
+    }
+    .qr-code-img{
+        height: 25vw;
+    }
+    .qr-code-logo{
+        height: 25vw;
+    }
+    .qr-code-text p{
+        font-size: 15px;
+        margin: 30px;
+    }
+} 
+
+@media (max-width: 414px){
+    .qr-code-papel{
+        height: 125vw;
+    }
+    .qr-code-img{
+        height: 25vw;
+    }
+    .qr-code-logo{
+        height: 25vw;
+    }
+    .qr-code-text p{
+        font-size: 15px;
+        text-indent: 1px;
+        margin: 30px;
+    }
+}
+
+@media (max-width: 390px){
+    .qr-code-papel{
+        height: 135vw;
+    }
+    .qr-code-img{
+        height: 25vw;
+    }
+    .qr-code-logo{
+        height: 30vw;
+    }
+    .qr-code-text p{
+        font-size: 15px;
+        text-indent: 1px;
+        margin: 10px;
+    }
+} 
