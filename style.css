@@ -28,7 +28,7 @@
     display: absolute;
     width: 100%;
     height: 20vw;
-    background: url(img-7.jpg) no-repeat center center;
+    background: url(/img-7.jpg) no-repeat center center;
     background-size: cover;
 }
 .qr-code-logo{
