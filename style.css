@@ -25,10 +25,16 @@
 }
 
 .qr-code-img{
-    display: absolute;
+    display: flex;
     width: 100%;
-    height: 20vw;
-    background: url(/img-7.jpg) no-repeat center center;
+    max-height: 250px;
+    background-size: cover;
+}
+.qr-code-img img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
     background-size: cover;
 }
 .qr-code-logo{
@@ -51,7 +57,10 @@
         height: 60vw;
     }
     .qr-code-img{
-        height: 20vw;
+        height: 100%;
+    }
+    .qr-code-img img{
+        height: 30vw;
     }
     .qr-code-logo{
         height: 10vw;
@@ -67,7 +76,10 @@
         height: 90vw;
     }
     .qr-code-img{
-        height: 30vw;
+        height: 100%;
+    }
+    .qr-code-img img{
+        height: 50vw;
     }
     .qr-code-logo{
         height: 15vw;
@@ -83,7 +95,10 @@
         height: 95vw;
     }
     .qr-code-img{
-        height: 30vw;
+        max-height: 200px;
+    }
+    .qr-code-img img{
+        height: 50vw;
     }
     .qr-code-logo{
         height: 20vw;
@@ -100,7 +115,10 @@
         height: 125vw;
     }
     .qr-code-img{
-        height: 25vw;
+        max-height: 120px;
+    }
+    .qr-code-img img{
+        height: 50vw;
     }
     .qr-code-logo{
         height: 25vw;
@@ -113,10 +131,13 @@
 
 @media (max-width: 414px){
     .qr-code-papel{
-        height: 125vw;
+        height: 130vw;
     }
     .qr-code-img{
-        height: 25vw;
+        max-height: 120px;
+    }
+    .qr-code-img img{
+        height: 50vw;
     }
     .qr-code-logo{
         height: 25vw;
