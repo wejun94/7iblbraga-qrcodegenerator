@@ -7,7 +7,7 @@ qr = qrcode.QRCode(
     border = 2,
 )
 
-qr.add_data('https://www.youtube.com/results?search_query=linha+por+cima+do+texto+css')
+qr.add_data('https://wejun94.github.io/7iblbraga-qrcodegenerator/')
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
